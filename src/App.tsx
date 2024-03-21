@@ -1,8 +1,10 @@
+import './index.css';
+
 const App = () => {
 	return (
-		<>
-			<h1>JIM</h1>
-		</>
+		<div className="flex h-screen justify-center items-center bg-slate-400">
+			<h1 className="text-4xl font-semibold">React-Starter</h1>
+		</div>
 	);
 };
 
